@@ -433,7 +433,7 @@ const Index = () => {
       <footer className="bg-slate-800 text-white text-center py-8 mt-16">
         <div className="max-w-6xl mx-auto px-4">
           <p className="mb-2">&copy; 2024 יפעת יחסי ציבור. כל הזכויות שמורות.</p>
-          <p className="text-gray-300">שירותי יחסי ציבור מקצועיים לאדריכלים ומעצבים</p>
+          <p className="text-gray-300">שירותי יחסי ציבור מקצועיים לחברות, אדריכלים ומעצבים</p>
         </div>
       </footer>
     </div>
