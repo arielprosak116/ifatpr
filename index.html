@@ -1,28 +1,314 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Elephant Picture</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background-color: #f0f0f0;
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>יפעת יחסי ציבור - PR לאדריכלים ומעצבים</title>
+    <meta name="description" content="שירותי יחסי ציבור מקצועיים לאדריכלים ומעצבים">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>יפעת יחסי ציבור</h1>
-  <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1350&q=80" alt="Elephant">
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>יפעת יחסי ציבור</h2>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" data-page="home">בית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="contact">יצירת קשר</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="articles">מאמרים ולקוחות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="survey">סקר ללקוחות</a>
+                    </li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">יחסי ציבור שמעצבים את התדמית שלכם</h1>
+                    <p class="hero-subtitle">
+                        מתמחה בשירותי יחסי ציבור עבור אדריכלים, מעצבים ויוצרים. 
+                        עם שנות נסיון רבות ובגישה אישית ובוטיק, אני עוזרת לכם לבנות נוכחות תקשורתית חזקה ומשמעותית.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-page="contact">בואו נתחיל</button>
+                        <button class="btn btn-secondary" data-page="survey">סקר מהיר</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-container">
+                        <img src="/lovable-uploads/1e7bf383-376a-4457-8cb0-5a458e6bcb96.png" alt="יפעת - מומחית יחסי ציבור" class="hero-image">
+                        <div class="geometric-pattern">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="services-preview">
+                <div class="container">
+                    <h2>מה אני מציעה</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <h3>יחסי ציבור לאדריכלים</h3>
+                            <p>בניית תדמית מקצועית, קידום פרויקטים וחשיפה תקשורתית יעילה</p>
+                        </div>
+                        <div class="service-card">
+                            <h3>יחסי ציבור למעצבים</h3>
+                            <p>הצגת עבודות, בניית מותג אישי וקשרים עם תקשורת מתמחה</p>
+                        </div>
+                        <div class="service-card">
+                            <h3>ייעוץ אסטרטגי</h3>
+                            <p>תכנון מסרים, זיהוי קהלי יעד וחשיבה אסטרטגית לטווח ארוך</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h1>יצירת קשר</h1>
+                        <p>אשמח לשמוע מכם ולעזור לכם לקדם את העסק שלכם</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <div>
+                                    <h3>טלפון</h3>
+                                    <p>054-3116641</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <h3>אימייל</h3>
+                                    <p>ifatpr@zahav.net.il</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles & Clients Page -->
+        <section id="articles" class="page">
+            <div class="container">
+                <h1>מאמרים ולקוחות</h1>
+                
+                <section class="articles-section">
+                    <h2>מאמרים נבחרים</h2>
+                    <div class="articles-grid">
+                        <article class="article-card">
+                            <h3>איך לבנות נוכחות תקשורתית יעילה לסטודיו אדריכלות</h3>
+                            <p>מדריך מקיף לאדריכלים על בניית תדמית מקצועית ברשתות החברתיות ובתקשורת</p>
+                            <span class="article-date">מרץ 2024</span>
+                        </article>
+                        <article class="article-card">
+                            <h3>עיצוב פנים בעידן הדיגיטלי - הזדמנויות תקשורתיות</h3>
+                            <p>כיצד מעצבי פנים יכולים לנצל את הפלטפורמות הדיגיטליות לחשיפה מקצועית</p>
+                            <span class="article-date">פברואר 2024</span>
+                        </article>
+                        <article class="article-card">
+                            <h3>מהמחשב למגזין - סיפור הצלחה של פרויקט אדריכלות</h3>
+                            <p>תהליך השיווק התקשורתי של פרויקט אדריכלות מובל ועד לפרסום במגזינים מקצועיים</p>
+                            <span class="article-date">ינואר 2024</span>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="clients-section">
+                    <h2>לקוחות שעבדתי איתם</h2>
+                    <div class="clients-grid">
+                        <div class="client-card">
+                            <div class="client-icon">🏢</div>
+                            <h3>סמל מטבחים</h3>
+                            <p>חברת מטבחים מובילה</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🏗️</div>
+                            <h3>יפתח בן צבי</h3>
+                            <p>אדריכל ומעצב</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🏛️</div>
+                            <h3>סטודיו ארן אדריכלות</h3>
+                            <p>פרויקטים מגורים יוקרתיים</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🎨</div>
+                            <h3>מורן עיצובים</h3>
+                            <p>עיצוב פנים ומסחרי</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🏢</div>
+                            <h3>גולדשטיין ושות' אדריכלים</h3>
+                            <p>פרויקטים ציבוריים ומשרדיים</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🌿</div>
+                            <h3>סטודיו נוף</h3>
+                            <p>אדריכלות נוף וגינון</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🎯</div>
+                            <h3>כהן דיזיין</h3>
+                            <p>עיצוב גרפי ומיתוג</p>
+                        </div>
+                        <div class="client-card">
+                            <div class="client-icon">🏙️</div>
+                            <h3>אורבן פלאן</h3>
+                            <p>תכנון עירוני ופיתוח</p>
+                        </div>
+                        <div class="client-card more-clients">
+                            <div class="client-icon">📦</div>
+                            <h3>ועוד הרבה אחרות</h3>
+                            <p>לקוחות נוספים רבים</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Survey Page -->
+        <section id="survey" class="page">
+            <div class="container">
+                <div class="survey-container">
+                    <h1>סקר ללקוחות עתידיים</h1>
+                    <p class="survey-intro">הסקר הקצר הזה יעזור לנו להבין את הצרכים התקשורתיים שלכם</p>
+                    
+                    <div class="survey-form" id="survey-form">
+                        <div class="question-card active" id="question-1">
+                            <h3>האם אתם מרגישים שיש לעסק שלכם נראות תקשורתית מספקת?</h3>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="visibility" value="yes">
+                                    <span class="radio-custom"></span>
+                                    כן, אני מרוצה מהנראות הנוכחית
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="visibility" value="partial">
+                                    <span class="radio-custom"></span>
+                                    חלקית, יש מקום לשיפור
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="visibility" value="no">
+                                    <span class="radio-custom"></span>
+                                    לא, אני צריך עזרה בתחום הזה
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-primary next-question" disabled>הבא</button>
+                        </div>
+
+                        <div class="question-card" id="question-2">
+                            <h3>האם יש לכם צורך ביחסי ציבור לקראת השקה או פרויקט חדש?</h3>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="launch" value="immediate">
+                                    <span class="radio-custom"></span>
+                                    כן, יש לי פרויקט קרוב
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="launch" value="future">
+                                    <span class="radio-custom"></span>
+                                    כן, בתכנון לעתיד הקרוב
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="launch" value="no">
+                                    <span class="radio-custom"></span>
+                                    לא בשלב הזה
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-primary next-question" disabled>הבא</button>
+                        </div>
+
+                        <div class="question-card" id="question-3">
+                            <h3>מה הייתם הכי רוצים לשפר בתדמית שלכם?</h3>
+                            <div class="checkbox-group">
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="improvements" value="social">
+                                    <span class="checkbox-custom"></span>
+                                    נוכחות ברשתות חברתיות
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="improvements" value="media">
+                                    <span class="checkbox-custom"></span>
+                                    חשיפה תקשורתית
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="improvements" value="professional">
+                                    <span class="checkbox-custom"></span>
+                                    מיצוב מקצועי
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="improvements" value="clients">
+                                    <span class="checkbox-custom"></span>
+                                    המשכת לקוחות חדשים
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="finish-survey">סיים סקר</button>
+                        </div>
+                    </div>
+
+                    <div class="survey-result" id="survey-result" style="display: none;">
+                        <div class="result-content">
+                            <h2>תודה על המענה!</h2>
+                            <p class="result-text" id="result-text"></p>
+                            <div class="result-contact">
+                                <div class="contact-item">
+                                    <span class="contact-icon">📱</span>
+                                    <div>
+                                        <h3>טלפון</h3>
+                                        <p>054-3116641</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-icon">✉️</span>
+                                    <div>
+                                        <h3>אימייל</h3>
+                                        <p>ifatpr@zahav.net.il</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 יפעת יחסי ציבור. כל הזכויות שמורות.</p>
+            <p>שירותי יחסי ציבור מקצועיים לאדריכלים ומעצבים</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
