@@ -569,6 +569,21 @@ input[type="checkbox"] {
     cursor: not-allowed;
 }
 
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+}
+
 .survey-result {
     background: linear-gradient(135deg, #e6f3ff 0%, #e8f5e8 100%);
     padding: 3rem;
