@@ -442,6 +442,10 @@ body {
     border: 2px dashed #d69e2e;
 }
 
+.client-card.architecths {
+    background: linear-gradient(135deg, #a6ece6 0%, #3dbde7 100%);
+}
+
 /* Survey Page */
 .survey-container {
     max-width: 800px;
