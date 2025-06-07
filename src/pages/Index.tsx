@@ -133,7 +133,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 items-center min-h-[80vh] px-4 md:px-8 bg-gradient-to-br from-blue-50 to-green-50">
               <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-800 leading-tight">
-                  יחסי ציבור שמעצבים את התדמית שלכם
+                  יחסי ציבור לחברות, לאדריכלים ולמעצבים
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
                   מתמחה בשירותי יחסי ציבור עבור אדריכלים, מעצבים ויוצרים. 
